@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cloudBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ADB5"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#cloudBg)"/>
+  
+  <!-- Cloud Icon Central -->
+  <g transform="translate(180, 50)">
+    <path d="M 60 120 
+             A 45 45 0 0 1 125 50 
+             A 60 60 0 0 1 215 65 
+             A 45 45 0 0 1 250 120 
+             L 60 120 Z" 
+          fill="url(#cloudGrad)" opacity="0.9"/>
+    <!-- Gear inside cloud -->
+    <circle cx="155" cy="90" r="18" fill="#0F172A"/>
+    <circle cx="155" cy="90" r="8" fill="#38BDF8"/>
+  </g>
+
+  <!-- DevOps Infinite Loop Pipeline -->
+  <g transform="translate(110, 180)">
+    <!-- Docker Container Box -->
+    <rect x="20" y="30" width="90" height="60" rx="8" fill="#1E293B" stroke="#00ADB5" stroke-width="2"/>
+    <rect x="35" y="42" width="15" height="12" fill="#38BDF8"/>
+    <rect x="55" y="42" width="15" height="12" fill="#38BDF8"/>
+    <rect x="75" y="42" width="15" height="12" fill="#38BDF8"/>
+    <rect x="35" y="60" width="15" height="12" fill="#38BDF8"/>
+    <rect x="55" y="60" width="15" height="12" fill="#38BDF8"/>
+    <text x="65" y="105" font-family="sans-serif" font-size="11" fill="#94A3B8" text-anchor="middle">Docker</text>
+
+    <!-- Arrow -->
+    <path d="M 125 60 L 165 60 M 155 52 L 165 60 L 155 68" stroke="#00ADB5" stroke-width="2" fill="none"/>
+
+    <!-- Kubernetes Cluster -->
+    <rect x="180" y="30" width="100" height="60" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+    <circle cx="230" cy="55" r="16" fill="none" stroke="#38BDF8" stroke-width="3"/>
+    <circle cx="230" cy="55" r="6" fill="#00ADB5"/>
+    <text x="230" y="105" font-family="sans-serif" font-size="11" fill="#94A3B8" text-anchor="middle">Kubernetes</text>
+
+    <!-- Arrow -->
+    <path d="M 295 60 L 335 60 M 325 52 L 335 60 L 325 68" stroke="#00ADB5" stroke-width="2" fill="none"/>
+
+    <!-- CI/CD Deploy Box -->
+    <rect x="350" y="30" width="100" height="60" rx="8" fill="#1E293B" stroke="#10B981" stroke-width="2"/>
+    <text x="400" y="55" font-family="sans-serif" font-size="12" font-weight="bold" fill="#10B981" text-anchor="middle">CI / CD</text>
+    <text x="400" y="75" font-family="sans-serif" font-size="10" fill="#34D399" text-anchor="middle">Pipelines</text>
+    <text x="400" y="105" font-family="sans-serif" font-size="11" fill="#94A3B8" text-anchor="middle">Automated</text>
+  </g>
+</svg>

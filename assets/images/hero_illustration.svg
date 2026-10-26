@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3E62"/>
+      <stop offset="100%" stop-color="#0B192C"/>
+    </linearGradient>
+    <linearGradient id="sphereGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ADB5"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Central Glowing Aura -->
+  <circle cx="325" cy="240" r="180" fill="#00ADB5" opacity="0.12" filter="blur(60px)"/>
+
+  <!-- Main Hero Interactive Platform Glass Card -->
+  <g filter="url(#softShadow)" transform="translate(85, 60)">
+    <rect width="480" height="340" rx="20" fill="url(#heroCardGrad)" stroke="#334155" stroke-width="2"/>
+    
+    <!-- Header of UI card -->
+    <rect width="480" height="48" rx="20" fill="#0B192C" opacity="0.9"/>
+    <circle cx="28" cy="24" r="6" fill="#EF4444"/>
+    <circle cx="48" cy="24" r="6" fill="#F59E0B"/>
+    <circle cx="68" cy="24" r="6" fill="#10B981"/>
+    <text x="240" y="30" font-family="'Poppins', sans-serif" font-size="13" font-weight="600" fill="#94A3B8" text-anchor="middle">LearnSphere Interactive Learning Lab</text>
+
+    <!-- Coding & IDE View -->
+    <g transform="translate(30, 75)">
+      <rect width="260" height="180" rx="12" fill="#070D18" stroke="#1E293B" stroke-width="1.5"/>
+      
+      <!-- Code snippet -->
+      <text x="20" y="32" font-family="'Courier New', monospace" font-size="11" fill="#38BDF8">const <tspan fill="#F59E0B">student</tspan> = {</text>
+      <text x="35" y="54" font-family="'Courier New', monospace" font-size="11" fill="#94A3B8">name: <tspan fill="#10B981">"Alex Mercer"</tspan>,</text>
+      <text x="35" y="76" font-family="'Courier New', monospace" font-size="11" fill="#94A3B8">track: <tspan fill="#10B981">"Full-Stack Web"</tspan>,</text>
+      <text x="35" y="98" font-family="'Courier New', monospace" font-size="11" fill="#94A3B8">progress: <tspan fill="#00ADB5">94.8%</tspan>,</text>
+      <text x="35" y="120" font-family="'Courier New', monospace" font-size="11" fill="#94A3B8">certified: <tspan fill="#A855F7">true</tspan></text>
+      <text x="20" y="142" font-family="'Courier New', monospace" font-size="11" fill="#38BDF8">};</text>
+      <text x="20" y="164" font-family="'Courier New', monospace" font-size="11" fill="#10B981">&gt; Enrollment Verified ✓</text>
+    </g>
+
+    <!-- Right Side Stats Cards -->
+    <g transform="translate(310, 75)">
+      <!-- Card 1 -->
+      <rect width="140" height="82" rx="10" fill="#111C2E" stroke="#00ADB5" stroke-width="1.5"/>
+      <text x="20" y="32" font-family="'Poppins', sans-serif" font-size="22" font-weight="800" fill="#00ADB5">15,400+</text>
+      <text x="20" y="52" font-family="'Poppins', sans-serif" font-size="11" font-weight="500" fill="#CBD5E1">Students Enrolled</text>
+      <text x="20" y="68" font-family="'Poppins', sans-serif" font-size="10" fill="#34D399">▲ 98.6% Completion</text>
+
+      <!-- Card 2 -->
+      <g transform="translate(0, 98)">
+        <rect width="140" height="82" rx="10" fill="#111C2E" stroke="#38BDF8" stroke-width="1.5"/>
+        <text x="20" y="32" font-family="'Poppins', sans-serif" font-size="22" font-weight="800" fill="#38BDF8">4.9 / 5.0</text>
+        <text x="20" y="52" font-family="'Poppins', sans-serif" font-size="11" font-weight="500" fill="#CBD5E1">Student Rating</text>
+        <text x="20" y="68" font-family="'Poppins', sans-serif" font-size="10" fill="#FBBF24">★ ★ ★ ★ ★ (4.2k)</text>
+      </g>
+    </g>
+
+    <!-- Bottom Progress Banner -->
+    <g transform="translate(30, 275)">
+      <rect width="420" height="42" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="25" cy="21" r="10" fill="#10B981"/>
+      <path d="M 21 21 L 24 24 L 30 18" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+      <text x="46" y="25" font-family="'Poppins', sans-serif" font-size="12" font-weight="600" fill="#F8FAFC">Accredited Academic Curriculum • Lifetime Course Access</text>
+    </g>
+  </g>
+
+  <!-- Floating Decorative Badges -->
+  <g filter="url(#softShadow)" transform="translate(40, 240)">
+    <rect width="145" height="52" rx="12" fill="#0B192C" stroke="#00ADB5" stroke-width="2"/>
+    <text x="72" y="24" font-family="'Poppins', sans-serif" font-size="11" font-weight="700" fill="#00ADB5" text-anchor="middle">HTML5 &amp; CSS3</text>
+    <text x="72" y="40" font-family="'Poppins', sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">W3C Compliant</text>
+  </g>
+
+  <g filter="url(#softShadow)" transform="translate(480, 20)">
+    <rect width="145" height="52" rx="12" fill="#0B192C" stroke="#38BDF8" stroke-width="2"/>
+    <text x="72" y="24" font-family="'Poppins', sans-serif" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">PHP &amp; MySQL</text>
+    <text x="72" y="40" font-family="'Poppins', sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">PDO Prepared Stmts</text>
+  </g>
+</svg>

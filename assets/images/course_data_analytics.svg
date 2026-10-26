@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="anaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081C15"/>
+      <stop offset="100%" stop-color="#1B4332"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00ADB5"/>
+      <stop offset="100%" stop-color="#52B788"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#anaBg)"/>
+  
+  <!-- Dashboard Card Area -->
+  <g transform="translate(60, 45)">
+    <rect width="480" height="270" rx="12" fill="#0D2818" stroke="#2D6A4F" stroke-width="1.5"/>
+    
+    <!-- Header Metrics -->
+    <text x="30" y="38" font-family="sans-serif" font-size="14" font-weight="bold" fill="#D8F3DC">KPI Executive Dashboard</text>
+    <rect x="330" y="20" width="120" height="26" rx="6" fill="#1B4332"/>
+    <text x="390" y="37" font-family="sans-serif" font-size="10" font-weight="bold" fill="#74C69D" text-anchor="middle">Q3 +42.8% GROWTH</text>
+
+    <!-- Bar Chart Grid -->
+    <line x1="30" y1="210" x2="450" y2="210" stroke="#2D6A4F" stroke-width="1.5"/>
+    <line x1="30" y1="150" x2="450" y2="150" stroke="#2D6A4F" stroke-dasharray="4,4" opacity="0.6"/>
+    <line x1="30" y1="90" x2="450" y2="90" stroke="#2D6A4F" stroke-dasharray="4,4" opacity="0.6"/>
+
+    <!-- Bars -->
+    <rect x="60" y="140" width="34" height="70" rx="4" fill="url(#barGrad)"/>
+    <rect x="120" y="110" width="34" height="100" rx="4" fill="url(#barGrad)"/>
+    <rect x="180" y="80" width="34" height="130" rx="4" fill="url(#barGrad)"/>
+    <rect x="240" y="125" width="34" height="85" rx="4" fill="url(#barGrad)"/>
+    <rect x="300" y="95" width="34" height="115" rx="4" fill="url(#barGrad)"/>
+    <rect x="360" y="60" width="34" height="150" rx="4" fill="url(#barGrad)"/>
+
+    <!-- Line Trend Overlay -->
+    <polyline points="77,130 137,95 197,75 257,110 317,85 377,50" 
+              fill="none" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="377" cy="50" r="5" fill="#FBBF24"/>
+
+    <!-- Bottom Labels -->
+    <text x="77" y="230" font-family="sans-serif" font-size="11" fill="#74C69D" text-anchor="middle">Jan</text>
+    <text x="137" y="230" font-family="sans-serif" font-size="11" fill="#74C69D" text-anchor="middle">Feb</text>
+    <text x="197" y="230" font-family="sans-serif" font-size="11" fill="#74C69D" text-anchor="middle">Mar</text>
+    <text x="257" y="230" font-family="sans-serif" font-size="11" fill="#74C69D" text-anchor="middle">Apr</text>
+    <text x="317" y="230" font-family="sans-serif" font-size="11" fill="#74C69D" text-anchor="middle">May</text>
+    <text x="377" y="230" font-family="sans-serif" font-size="11" fill="#74C69D" text-anchor="middle">Jun</text>
+  </g>
+</svg>

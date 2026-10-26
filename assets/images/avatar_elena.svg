@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="56" fill="#0B192C" stroke="#A855F7" stroke-width="3"/>
+  <circle cx="60" cy="46" r="22" fill="#FED7AA"/>
+  <!-- hair -->
+  <path d="M 36 50 C 34 22, 86 22, 84 50 C 88 65, 84 75, 78 72 C 76 56, 80 40, 60 40 C 40 40, 44 56, 42 72 C 36 75, 32 65, 36 50 Z" fill="#9A3412"/>
+  <!-- dress -->
+  <path d="M 26 100 C 28 76, 48 70, 60 74 C 72 70, 92 76, 94 100 Z" fill="#7C3AED"/>
+</svg>
